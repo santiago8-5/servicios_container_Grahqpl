@@ -62,4 +62,4 @@ El archivo `docker-compose.yaml` define los servicios necesarios para ejecutar l
 
 Este diagrama representa la estructura y la interacción entre los contenedores de la aplicación y MongoDB en el entorno de Docker.
 
-![Diagrama de Docker](diagramasAppDistribuidas/Socket.png)
+![Diagrama de Docker](DIagrama-Arquitectura/DiagramaArquitectura-Docker.jpg)

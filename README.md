@@ -1,7 +1,9 @@
-Documentación del Proyecto
-Este proyecto configura un entorno de desarrollo y producción para una aplicación Node.js/GraphQL utilizando Docker y Docker Compose. A continuación, se detallan los componentes y configuraciones involucradas en el proyecto.
+#Documentación del Proyecto
 
-Dockerfile
+Este proyecto configura un entorno de desarrollo y producción para una aplicación Node.js/GraphQL utilizando Docker y Docker Compose. A continuación, 
+se detallan los componentes y configuraciones involucradas en el proyecto.
+
+##Dockerfile
 El Dockerfile define cómo construir la imagen Docker para la aplicación Node.js/GraphQL.
 
 Pasos del Dockerfile
@@ -55,3 +57,4 @@ mongodb_data: Define un volumen para la persistencia de datos de MongoDB.
 Representación Visual
 
 Este diagrama representa la estructura y la interacción entre los contenedores de la aplicación y MongoDB en el entorno de Docker.
+![Socket Image](diagramasAppDistribuidas/Socket.png)
